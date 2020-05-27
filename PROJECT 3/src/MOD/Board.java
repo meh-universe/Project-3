@@ -61,9 +61,8 @@ public class Board extends JFrame{
 
         // set up the timer
         time = new Timer(750, new ActionListener(){
-            public void actionPerformed(ActionEvent ae){
+            public void actionPerformed(ActionEvent ae)
                 checkCards();
-            }
         });
         time.setRepeats(false);
 
