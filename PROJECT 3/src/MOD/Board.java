@@ -23,6 +23,7 @@ public class Board extends JFrame{
      * on the board panel. If a card is clicked on, it'll turn.
      */
     public Board(){
+        // VARIABLES
         int pairs = 10;
         List<Card> cardsList = new ArrayList<>();
         List<Integer> cardValues = new ArrayList<>();
